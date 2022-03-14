@@ -1,5 +1,6 @@
 # Solidty-HardHat
-Criar e Compilar com solidity e HARDHAT
+Exemplo de como Criar e Compilar com solidity e HARDHAT
+//Exemplo imcompleto para testes....
 
 # npm install -g hardhat
 # npm install --save-dev hardhat
