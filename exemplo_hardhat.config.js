@@ -1,3 +1,7 @@
+// Jesus e Senhor
+// Dev. 2022 Gleison Silveira
+// EXEMPLO ARQUIVO DE CONFIRGURAÇÂO APOS na pasta HARDHAT para conexao do module.exports
+
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan")
 //.env
