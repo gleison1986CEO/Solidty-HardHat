@@ -41,11 +41,13 @@ module.exports = {
     mumbai: {
       url: "https://matic-testnet-archive-rpc.bwarelabs.com",
       accounts: [
+        //Chave do arquivo .env
         process.env.PRIVATE_KEY,
       ]
     }
   },
   etherscan: {
+         //Chave do arquivo .env
     apiKey: process.env.POLYGONSCAN_KEY,
   }
 };
