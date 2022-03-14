@@ -4,7 +4,7 @@ pragma solidity 0.8.4;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-contract Artwork is ERC721 {
+contract teste is ERC721 {
 
     uint256 public tokenCounter;
     mapping (uint256 => string) private _tokenURIs;
@@ -27,7 +27,7 @@ contract Artwork is ERC721 {
         require(
             _exists(_tokenId),
             "ERC721Metadata: URI set of nonexistent token"
-        );  // Checks if the tokenId exists
+        );  //checagem se  token existe
         _tokenURIs[_tokenId] = _tokenURI;
     }
 
